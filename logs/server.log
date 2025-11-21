@@ -10,9 +10,9 @@ INFO:     172.20.0.1:53534 - "OPTIONS /auth/register/merchant HTTP/1.1" 200 OK
 INFO:     172.20.0.1:53544 - "POST /auth/register/merchant HTTP/1.1" 422 Unprocessable Content
 INFO:     172.20.0.1:43474 - "OPTIONS /auth/register/customer HTTP/1.1" 200 OK
 INFO:     172.20.0.1:43490 - "POST /auth/register/customer HTTP/1.1" 422 Unprocessable Content
-le "/usr/local/lib/python3.13/site-packages/uvicorn/server.py", line 78, in serve
-    await self.startup(sockets=sockets)
-  File "/usr/local/lib/python3.13/site-packages/uvicorn/server.py", line 128, in startup
+INFO:     172.20.0.1:53822 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53824 - "POST /auth/login HTTP/1.1" 422 Unprocessable Content
+n3.13/site-packages/uvicorn/server.py", line 128, in startup
     server = await loop.create_server(
              ^^^^^^^^^^^^^^^^^^^^^^^^^
         create_protocol, sock=sock, ssl=config.ssl, backlog=config.backlog
